@@ -12,7 +12,7 @@
     display: flex;
     font-family: "Fira Sans", serif;
     background-color: #f5f5f5;
-    padding: 24px 160px;
+    padding: 24px 70px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +24,7 @@
 .hero p {
     font-size: 32px;
     font-weight: 700;
+    color: rgba(14, 14, 14, 1);
 }
 
 /*Sign In button*/
@@ -37,11 +38,14 @@
 }
 
 /*Main Marking section 1*/
+main {
+    background-color: #f5f5f5;
+}
 
 .hero-image {
     display: flex;
     padding: 80px 100px;
-    margin: 10px 80px;
+    margin: 0px 80px;
     justify-content: space-between;
     align-items: center;
     background-color: #C6E4D6;
@@ -73,4 +77,98 @@ h1 {
     padding: 17px 34px;
     border: none;
     border-radius: 8px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.5);
+    align-self: stretch;
+    margin: 32px 0px;
+}
+
+#text2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Fira Sans", serif;
+    margin: 32px;
+    color: rgba(14, 14, 14, 1);
+
+}
+
+.pillers {
+    font-family: "Fira Sans", serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 24px;
+    padding: 0px;
+}
+
+.box {
+    flex-direction: column;
+    text-align: left;
+    background-color: #fff;
+    padding: 24px;
+    margin: 0px 24px;
+    gap: 24;
+    border-radius: 16px;
+
+}
+
+.BS {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+}
+
+/*Main Marking section 2*/
+#BS2 {
+    margin: 32px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    /*giving margin to main paragraph*/
+}
+
+/*Box Design*/
+.box2 {
+    flex-direction: column;
+    text-align: left;
+    padding: 32px;
+    margin: 0px 24px;
+    border-radius: 16px;
+}
+
+#b1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+#b2 {
+    background-color: rgb(198, 228, 214);
+}
+
+#b3 {
+    background-color: rgb(247, 235, 207);
+}
+
+/*button design*/
+.btnA {
+    padding: 12px 20px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 8px;
+    color: #f5f5f5;
+    font-size: 16px;
+}
+
+#clr1 {
+    background-color: #5490F5;
+}
+
+#clr2 {
+    background-color: #09A15C;
+}
+
+#clr3 {
+    background-color: #FFC239;
 }
