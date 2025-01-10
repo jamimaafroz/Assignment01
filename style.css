@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*optional hero section*/
+
+
+.hero {
+    display: flex;
+    font-family: "Fira Sans", serif;
+    background-color: #f5f5f5;
+    padding: 24px 160px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10;
+
+}
+
+/*bangladesh2.0*/
+.hero p {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/*Sign In button*/
+
+.hero button,
+.btn1 {
+    color: #006A50;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+/*Main Marking section 1*/
+
+.hero-image {
+    display: flex;
+    padding: 80px 100px;
+    margin: 10px 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+}
+
+/*hero-text*/
+
+.hero-text {
+    font-family: "Fira Sans", serif;
+}
+
+#text1 {
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+#text2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+}
+
+.btn {
+    background-color: #006A50;
+    color: #f5f5f5;
+    font-size: 18px;
+    margin: 24px 0px;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+}
