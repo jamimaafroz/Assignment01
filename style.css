@@ -46,6 +46,7 @@
     align-items: center;
     background-color: #C6E4D6;
     border-radius: 10px;
+    text-align: left;
 }
 
 /*hero-text*/
@@ -54,7 +55,7 @@
     font-family: "Fira Sans", serif;
 }
 
-#text1 {
+#text {
     font-size: 24px;
     color: rgba(14, 14, 14, 0.5);
 }
