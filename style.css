@@ -8,20 +8,21 @@
 /*optional hero section*/
 
 
-.hero {
+.navbar {
     display: flex;
+    width: 100%;
     font-family: "Fira Sans", serif;
     background-color: #f5f5f5;
     padding: 24px 70px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 10;
+    gap: 10px;
 
 }
 
 /*bangladesh2.0*/
-.hero p {
+.navbar p {
     font-size: 32px;
     font-weight: 700;
     color: rgba(14, 14, 14, 1);
@@ -29,17 +30,19 @@
 
 /*Sign In button*/
 
-.hero button,
+.navber button,
 .btn1 {
     color: #006A50;
     border: 1px solid #006A50;
     padding: 15px 30px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 /*Main Marking section 1*/
 main {
     background-color: #f5f5f5;
+    margin: 0px;
 }
 
 .hero-image {
@@ -77,17 +80,18 @@ h1 {
     padding: 17px 34px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 
-p {
+.paragraph {
+    font-family: "Fira Sans", serif;
     font-size: 16px;
     font-weight: 400;
-    color: rgba(14, 14, 14, 0.5);
-    align-self: stretch;
-    margin: 32px 0px;
+    color: rgba(14, 14, 14, 0.75);
+    margin: 10px 0px;
 }
 
-#text2 {
+.text2 {
     font-size: 40px;
     font-weight: 700;
     font-family: "Fira Sans", serif;
@@ -96,12 +100,19 @@ p {
 
 }
 
+.cards {
+    margin-top: 80px;
+}
+
 .pillers {
     font-family: "Fira Sans", serif;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 24px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: stretch;
+    gap: 24px;
+    margin: 32px 0px;
     padding: 0px;
 }
 
@@ -111,7 +122,7 @@ p {
     background-color: #fff;
     padding: 24px;
     margin: 0px 24px;
-    gap: 24;
+    gap: 24px;
     border-radius: 16px;
 
 }
@@ -123,19 +134,22 @@ p {
 }
 
 /*Main Marking section 2*/
-#BS2 {
-    margin: 32px;
+.BS2 {
+    margin: 0px 32px;
     font-family: "Fira Sans", serif;
     font-size: 16px;
+    color: rgba(14, 14, 14, 0.75);
     /*giving margin to main paragraph*/
 }
 
 /*Box Design*/
 .box2 {
     flex-direction: column;
+    align-items: center;
     text-align: left;
-    padding: 32px;
-    margin: 0px 24px;
+    padding: 24px;
+    margin: 0px 32px;
+    gap: 24px;
     border-radius: 16px;
 }
 
@@ -159,6 +173,7 @@ p {
     border-radius: 8px;
     color: #f5f5f5;
     font-size: 16px;
+    cursor: pointer;
 }
 
 #clr1 {
@@ -171,4 +186,221 @@ p {
 
 #clr3 {
     background-color: #FFC239;
+}
+
+/*challange 1 */
+#quoto {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+
+.opinion {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px 20px;
+    margin: 32px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+#cheif {
+    font-size: 12px;
+    margin: 12px 0px;
+}
+
+/*recent news*/
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: stretch;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 48px;
+    gap: 32px;
+    margin: 24px;
+}
+
+#satelite {
+    border-radius: 16px;
+}
+
+font h2 {
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 1);
+}
+
+.text3 {
+    padding: 12px 0px;
+}
+
+.text3 span {
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.75);
+}
+
+.news-meta {
+    -family: "Fira Sans", serif;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.75);
+    padding: 12px 0px;
+}
+
+#reverse {
+    flex-direction: row-reverse;
+}
+
+.donate,
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    margin: 80px 0px;
+}
+
+.heading h1 {
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+}
+
+.heading p {
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.75);
+    margin: 24px;
+    align-self: stretch;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.tk {
+    background-color: #fff;
+    color: rgba(14, 14, 14, 0.75);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 30px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    border-radius: 16px;
+    padding: 40px;
+    margin: 0px 24px;
+}
+
+.tk:hover {
+    background-color: rgba(198, 228, 214);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    padding: 20px 40px 20px 40px;
+    margin: 32px 0px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.searchbar input {
+    width: 100%;
+    border: none;
+    font-size: 30px;
+    font-family: "Fira Sans", serif;
+}
+
+/*footer*/
+.footer {
+    background-color: rgb(198, 228, 214);
+    padding: 80px 100px;
+    margin: 24px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heading2 h1 {
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+}
+
+.end {
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.75);
+    margin: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.end-search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.searchbar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    background-color: #fff;
+}
+
+.searchbar2 input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+}
+
+.btn3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #006A50;
+    color: #f5f5f5;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
